@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<head>
+  <title> dashboard</title>
+  <link rel="stylesheet" href="/index.css">
+  <script src="https://kit.fontawesome.com/8771ef2af3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="whole">
+    <div class="header">
+      <div class="headleft">
+        <div class="image">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAABECAYAAACMNaf4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAA15SURBVHgB7Z0JdBXVGcf/87KzhiUhbBYESohEim1ZioVaLFhpQWWTTeGoiKgQtAeqRcmhR0RLRdAel9RDao9Ha0QBUWQp4GFJj6CWfS2ERFnVsGYxeW96/zPzfDeTecl7L3nJJG9+53zn3bncuW8y75vv++a73wyAg4ODg0MjQH04tQ1CQJ2T1l19rFtnOGi44FABdU6nBCTFu9XZPSer09s3CXy/bt3hwWKocSvUGald4OAoVyU8iT3w7dVmiI3ahITE5WpG9YqijVFjn4bbvVgoWD7ilSz10e6dEOE4ymVCWbZ/L6JjRsNTHAdFfQOq6331kfRUf+PVR1LToWIZPKXzEeW6De6o58UsBxAV94G6oHsLRDCOclmhxv0D7vgXhJLcJLaSEF3+ruWwjC6JiFb+JhTwUbjiZ4jxG+EqHwm352Oo6m4ok68iglHgYIn6hAjqS1z7hVVKEZtlSBwXr2RmeiqNy+j1phjTA+XK/YjGUGHttovtKWilzFMyD36PCMaxXH5Qnj38rbBC6XC77hObS3Dx3amq1cWoRi2By9URscpilLtOiFP6kKNYOo7lChB1Vto0cSnG4MWDWeKkqVqfSD3Aoz6M+NJMlMY/J7pi8PUN05WcHDccHIJBzUibrs7udZ/eTu0i2q9rqQsHSxzLFSTqnF6zhd0SSValHZTLGcrSr4rhYEkkKtcoIZkIkd5t47BsSEqP3NNFJ+bnXqiJ+9ss5HE4NCpEykCLmYKWri1i1Kxb26sJ0Yo6I72VOjm1pRrqXELeRiMnGmFA5V3o2PDMXVOarEJ0cRmCpl9KAkZe3xyztp5FcbmKV/cVYlpaIoSS4a3Dl3ClzBPUfFEucS86GrGwK++iTFH0G5dQCYtbFMHuQKFfO2FDXt1biIc2nwlqn0WDktGrdRzu/vgrlLornu83h3dAz1ZxGLWmAGeLygOe8+6eLfD2b228QuRRJyjLD72DGuDkuaogxqXgmUFJmHlja6GU31VSLDJr6zkkxLjw0R2d0SLWOZ0ydeG6MoWcgk3Ycbr4VvExKZCxSwa3w729EjFi9SnuZznmYqkbt32Qj0/uuA6bR/8It7x3KiAX+eX5Elr2LNgJl5IoLNZS1BLhVy63ul556dB/YB/iEYByPdW/Le4RijX+4wK/iuXl9NUyDMnJwyd3Xoe1woKN/ehrnK/GRR4p/D5fefFgNmyEOjMtRUSBtaZcjh03QVf4l18m4/Gb2mLM2nysP3UtoP0KhQUbJixYy9go/Ov2jmgS7aQQHeUyQVf4QO/WmsX6d0FRUPteEgp2++oCtImPxibhIiMdW6YL6hNanrEfFWBjfmAWywxd5IjV+bi5g7Mq5CiXiakbvkZNKbhShrePhJBMa2Q4btEhbESi5Top5C3UP9vQyIlE5VpviEOYcdyiQ9hwlMshbNjFLTa16GOKu9Sin9lJ88OqXPQrEVLVugv3aws+zSPWDYTwtvBqNXPL+Yg4+M4XbwXNNfL8t/ZCWgm5KOS08TfIsAoixmKOGOPf/M3N85NifJ4VcgGoULFgdU7McJkhuNKNGmIHy8WTynW2PJMw8N4uhGXF8kWQajGWa5cnhKwS8guL7+gqJEfIUSEHhBw29lkGXRm8NDHNK5+f+VL/n0zz/17IZ8b8e4T8T8gRIY+Yxj0pzZEh9Q+X+p+W+rlU9UdjLu/cPO5NQnpVcdxW8jPUMXaxXG0NMUNLQGWhtVls9Ln8jGUf0+K3CBkkZL/RT6vwgZA+pvGthcwy5p5omseLvIaTIP1bM6mf37USPotEeF6vB58a0i3Ne0Z/U2mOpn7mlvtnCllkOg4q3K+FfCjkRiFFFsdtRZ3/1naMuXh1finksrHNE0slaG4xlu5tN3RF8roJPuX8vDSGFsKrWHQ3f0fFVMQEIT9B6DwBn2KdNL77oLEdZ2yHstDIfedI+2435rpobHcTcreffT+Hfl5kCW3JoQbYMRUxGrpb+bGQL+CLN1hZd8g09ish/aArFk+0t3Q4DfrfxphnsDR+LnRXSHilDzfatD7/RWj8HBWPnRfGs0LyoV8QXQ05geCgFe5gtL8RcqfxyfzYh0a/v4uiP/QLr16x893iMehBN+HVW917F3LhC6AZg8QZ7URpzFE/7ZYIDSpwkrR9xPikdTkp9acgeNrB9/swgP/GaO+FLzBPho2xcxKV1kheoKvuSuRYj7Sv1026THNazReF0ODcssvz+GmHMv8lqU0r29Loo0wzvtc2RZhW2Fm5eGzewJmKc6Ga8Tz53tjnW+i33g0ZWr5z0C0YrSPvml+ArlxvogFgR7dI98e7xIeFXGf0MWDP9zOebwHsAj1V4LUia4CaPbliA64IWSdt8++r83RCTbCj5frCtM2gfQqslYVBr9mi8WHTBagd3pe+9wbUPZnQb0iY1mA+bgv0h3o3V7Mfb07k83WXkOOoYxrCwnUhfMF5dTCOotuorRrjkahfGFPxLvhT6LkwhgnMqT0AX+7Mit6m7RjUA3Z0i3yYYwP0LDpJh55iSLQYy6D5E+hXMpWKgfOdxvjGUsS+S8gI6PEX4Xl4DZUVSKbUJPUSIthRuSZDzz8xvsg1+pjzGmwxtkDI7UKGCvkpfAlGbndAzWHM19GQ11B/0B3SinoVjKsLq+HfojM3GC/JYdQDds5zMaMsx189qxnPxKs3L8bkZXvUnNOS1PcrKLl2yWUqrxViHPY72Bi7l9wUSu1AXttdEuR4O8Mlq4WGDDH66P7l97PeAhtj94BejpsCiRsUP+3amNuKYPcLZjwXpZ8y2lwT/dRoM5Afb7Rrw/WHDbtbro5Su6SasbxQ5KDfWy0gu7PWUlsutbmC0ChHxZqteD/tUtMnkRfi5UqIEotjkv9HD/mZNVu/HtOOlovlJH2h3yWOlvr3W4yNNsbQCvGO6nqjnz+id2mEi93DjPaj0KsumM3/jTRPqAEvLRHzR9731GcK+auQsdBvQogHvhyT/D2Ml1hjxiD9D1L/MeNzv/F3MGhnrLVWyHnoi+9e5PVRmbtQuTCQNXPBvd6nhthRuV636MuDdeKQli3Hov+f0H8I73z3QrdqA1BZSakgLO8JNUZbIeQ5oz3bEBneZX5ntFlXRqVn8rcH9B9chsex1mjnQS+z4Z0vF6g3mcbSavl7gZzVe/NZ+VGnymV3t8gfnpaGV251bpFwDZJLP09KfaytYtFeqZ99aPV4qx9qhcGLsP6ReeysYFgk9dFVz/BzLEyjPAjfRUF3yzo2q1IdrpuyePIAbIwdLBevQKtiQJ5ALt7S0sgvbWBl5zTTWK/12W/sY65dfwb6Yi+XkZh8ZIDMuihmuln7RNdDJSsxzS27lnfgs3pyXRnn4ltz+Dok5qLaG8fIRPAWVF5AZ9KXhX73QM/NkR1Gv7lejRcGw4NxQn4FvSScx7AGFS2w+bitiMjlHyrXyiDGs+IhG8HDhOsiUx8XhhmzsR690DiWbD/7eys6raBybzEkEJiPezbAsUXGMWVXMcaN0M5JWIn0d0UwOfoSHMKC89yiQ9hwlMshbDjK5RA2GmrMdT/03FWkki3kDdichqpcLIW5GZFLoHel9YrjFh3CRqNNRfTv3x8ejwf9+vXDyZMncebMGUycOBFHjx5FVlYWoqOjMWfOHOTl5WHLli2YN28edu7ciYKCArRo0QLJyclYs2YN4uPjMXjwYKxatarC/NOnT0dOTg6GDBmC8+fPY9y4cViwYAHGjBmDY8eOobCwEPv27UO7du0wd+5crFixAt27d9f6hg0bhsOHD2v7DR8+HEuXLkXv3r2179q1axcaC+FXrmg1SX28V62+2rhr1vG2eZerfudox44dMWDAAIwaNQobNmzAypUrERMTg/Xr9fe+paSkoG/fvtqPu3fvXnTq1ElTMP7QXbt2RVpaGrZu3YrmzZtjxIgRlZSrc+fOGDt2LMrKyjBlyhTk5uZiwoQJGDlyJDZu3IgLFy5oikQlvHTpEjIzM3H27FkUFxdj/PjxWLduHU6dOqW1ly1bpikhlS8Q5UpOcDU9N7NnGF4XXZ4Md+2pRPiVS3Wtqe3CkCmpLfHnz76pcgwtVZ8+fdCsWTNNrl27hvT0dHTr1g35+fmIi4vTfnQqBWnTpg0uX76MQNm8eTOys7MxdOhQTfkOHDiAHj16VBpHa7Rt2zYsXLgQL7/8MqZOnYqa8uCNrR+DW3kMtU7tqkOjjbmoXKmpqZq1SEjQS6B27NiB3bt9KzhXr17V3Bihi0pKSgp4/j179mj7HD9e/ZIdrd/8+fO19urVqxEphMdyqaUnoDR5AGFi+5ki1kKNqmoMFcflcuHQoUOaKyJ0gbROS5YswZUrVzTXR7dGGGvRqimKr0CV46gMgwYNQkZGhmbxGJdRYblfUZG+ns4Ya/bs2Vi+fLmmbHSP3CZHjhzBzJkzNRdLGIvJML6jK6Z1mzRpEkpKSrSL4ZVXXvH7t31+rlisiSrvI5zEqLmIUFhXrtZUhMtShTIFPH7gwIGquBGo1M85hEJo7aioKDU2NrbS99TG8UqyEA2AiF64ppUIBm98ZkZV1R+so9vt1qQm39NYcPJcDmHDUS6HsNFQ3SIrNlchcjkEB4dI5v8soU85tFnuHgAAAABJRU5ErkJggg=="
+            alt="">
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-list-ul"></i>
+        </div>
+      </div>
+      <div class="bull">
+        <div class="head">
+          <h1> BBQ HOUSE ADMIN PANEL</h1>
+        </div>
+        <div class="headright">
+          <div class="bell">
+            <i class="fa fa-bell"></i>
+          </div>
+          <div>
+            <img class="my" src="file:///C:/Users/Lenovo/Pictures/Screenshots/Screenshot%20(118).png" alt="">
+          </div>
+          <div>
+            <p> Manora Kc </p>
+            <p> admin</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="middle">
+      <div class="side">
+        <a href="#dashboard"> Dashboard</a>
+        <a href="#dashboard"> Product</a>
+        <a href="#dashboard"> Category</a>
+        <a href="#dashboard"> Order</a>
+        <a href="#dashboard"> User Setting</a>
+        <a href="#dashboard"> Apperance</a>
+        <a href="#dashboard"> Admin Manager</a>
+      </div>
+      <div class="main">
+        <div class="main1">
+          <div class="topic">
+            <h1>Welcome Manora</h1>
+          </div>
+          <div class="live">
+            <p> Hey live data here!</p>
+            <p2> Live</p2>
+            <p> Hey live data here!</p>
+          </div>
+        </div>
+        <div class="main2">
+          <div class="sales">
+            <h1 class="orang"> sales</h1>
+            <div class="today">
+              <div class="sa">
+                <p> today</p>
+                <p> 30000</p>
+              </div>
+              <p>25% up</p>
+            </div>
+            <hr>
+            <div class="today">
+              <div class="sa">
+                <p> today</p>
+                <p> 30000</p>
+              </div class="dis">
+              <p>25% up</p>
+            </div>
+            <div class="today">
+              <div class="sa">
+                <p> today</p>
+                <p> 30000</p>
+              </div>
+              <p>25% up</p>
+            </div>
+          </div>
+          <div class="sales">
+            <h1 class="orang"> Order</h1>
+            <div class="today">
+              <div class="sa">
+                <p> today</p>
+                <p> 30000</p>
+              </div>
+              <p>25% up</p>
+            </div>
+            <div class="today">
+              <div class="sa">
+                <p> today</p>
+                <p> 30000</p>
+              </div>
+              <p>25% up</p>
+            </div>
+            <div class="today">
+              <div class="sa">
+                <p> today</p>
+                <p> 30000</p>
+              </div>
+              <p>25% up</p>
+            </div>
+          </div>
+          <div class="sales">
+            <h1 class="orang"> Visitors</h1>
+            <div class="today">
+              <div class="sa">
+                <p> today</p>
+                <p> 30000</p>
+              </div>
+              <p>25% up</p>
+            </div>
+            <div class="today">
+              <div class="sa">
+                <p> today</p>
+                <p> 30000</p>
+              </div>
+              <p>25% up</p>
+            </div>
+            <div class="today">
+              <div class="sa">
+                <p> today</p>
+                <p> 30000</p>
+              </div>
+              <p>25% up</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="main3">
+          <div class="pa">
+            <div class="p">
+              <h> Product</h>
+              <p>300</p>
+            </div>
+            <div class=" fa">
+              <i class="fas fa-shopping-cart"></i>
+
+            </div>
+          </div>
+          <div class="pa">
+            <div class="p">
+              <h> Customers</h>
+              <p>300</p>
+              <div class=" fa">
+                <i class="fa-solid fa-grip"></i>
+              </div>
+            </div>
+          </div>
+          <div class="pa">
+            <div class="p">
+              <h>Staffs</h>
+              <p>300</p>
+            </div>
+            <div class=" fa">
+              <i class="fa-sharp fa-solid fa-user-group"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  </div>
+  <input type="text">
+</body>
+
+</html>
